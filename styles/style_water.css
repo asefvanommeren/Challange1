@@ -9,16 +9,20 @@
 .progress_bar_done {
   height: 100%;
   width: 200px;
-  background: linear-gradient(to left, #F2709C, #FF9472);
+  background: linear-gradient(to left, #03c2fc, #037bfc);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+  /* box-shadow: 0 3px 3px -5px #03c2fc, 0 2px 5px #03c2fc; */
 }
 
+.progress_bar_done h2 {
+  color: white;
+}
 .box .progress_bar_text {
-	padding: 10px 0 0;
+  position: relative;
+  top: 60px;
 	color: #999;
 	font-weight: 700;
 	letter-spacing: 1px;
