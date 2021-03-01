@@ -1,5 +1,6 @@
+
 .progress_bar {
-  height: 30;
+  height: 40px;
   width: 300px;
   background-color: #d8d8d8;
   border-radius: 20px;
@@ -7,10 +8,18 @@
 
 .progress_bar_done {
   height: 100%;
-  width: 300px;
-  background-color: orange;
+  width: 200px;
+  background: linear-gradient(to left, #F2709C, #FF9472);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+}
+
+.box .progress_bar_text {
+	padding: 10px 0 0;
+	color: #999;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
