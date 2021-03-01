@@ -1,0 +1,16 @@
+.progress_bar {
+  height: 30;
+  width: 300px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+}
+
+.progress_bar_done {
+  height: 100%;
+  width: 300px;
+  background-color: orange;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
