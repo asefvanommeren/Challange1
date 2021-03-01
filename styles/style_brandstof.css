@@ -18,8 +18,8 @@ body {
 
 .box {
 	position: relative;
-	width: 300px;
-	height: 400px;
+	width: 350px;
+	height: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,19 +28,19 @@ body {
 	box-shadow: 0 30px 60px rgba(0, 0, 0, .2);
 }
 
-.box .percent {
+.box .progress {
 	position: relative;
 	width: 150px;
 	height: 150px;
 }
 
-.box .percent svg {
+.box .progress svg {
 	position: relative;
 	width: 150px;
 	height: 150px;
 }
 
-.box .percent svg circle {
+.box .progress svg circle {
 	width: 150px;
 	height: 150px;
 	fill: none;
@@ -52,18 +52,19 @@ body {
 	stroke-linecap: round;
 }
 
-.box .percent svg circle:nth-child(1) {
+.box .progress svg circle:nth-child(1) {
 	stroke-dashoffset: 0;
 	stroke: #f3f3f3;
 }
 
-.box .percent svg circle:nth-child(2) {
-	stroke-dashoffset: calc(440 - (440 * 87) / 100);\
+.box .progress svg circle:nth-child(2) {
+	stroke-dashoffset: 87;
+	/* stroke-dashoffset: calc(440 - (440 * 20) / 100); */
 						/* Getal achter * is het percentage voltooid! */
-	stroke: #03a9f4;
+	stroke: green;
 }
 
-.box .percent .number {
+.box .progress .number {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -75,11 +76,11 @@ body {
 	color: #999;
 }
 
-.box .percent .number h2 {
+.box .progress .number h2 {
 	font-size: 48px;
 }
 
-.box .percent .number h2 span{
+.box .progress .number h2 span{
 	font-size: 24px;
 }
 
