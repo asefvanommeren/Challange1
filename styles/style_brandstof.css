@@ -73,7 +73,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #999;
+	color: green;
 }
 
 .box .progress .number h2 {
