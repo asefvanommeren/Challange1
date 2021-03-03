@@ -3,24 +3,25 @@ function lineChart() {
   let afstandChart = new Chart(myChart, {
     type: 'line', // bar horizontal pie line doughnut radar polararea
     data: {
-      labels: ['A', 'B', 'C', 'D', 'E'],
+      labels: ['10', '20', '30', '40', '50'],
       datasets: [{
-        label: 'AA',
-        data: [111, 222, 333, 444, 555], //backgroundColor: 'green'
+        label: 'Aantal Km',
+        data: [155, 271, 443, 718, 1122], //backgroundColor: 'green'
         //backgroundColor: ['green', 'blue', 'red', 'orange', 'pink'],
         borderWidth: 1,
-        //borderColor: 'black',
+        borderColor: 'black',
         hoverBorderWidth: 2,
         hoverBorderColor: 'purple',
       }]
     },
     options: {
       title: {
-        display: true,
-        //text: 'Snelheid', //Grafieknaam
+        display: false,
+        text: 'Snelheid', //Grafieknaam
         fontSize: 20
       },
       legend: {
+        display: false,
         position: 'right',
         labels: {
           //fontColor: 'black'
@@ -29,7 +30,7 @@ function lineChart() {
       layout: {
         padding: {
           left: 20,
-          right: 20
+          right: 35
         }
       },
       tooltips: {

@@ -3,21 +3,21 @@ function pieChart() {
   let atmosChart = new Chart(myChart2, {
     type: 'pie', // bar horizontal pie line doughnut radar polararea
     data: {
-      labels: ['A', 'B', 'C', 'D', 'E'],
+      labels: ['Zuurstof', 'Stikstof', 'Argon', 'Koolstofdioxide', 'Neon'],
       datasets: [{
         label: 'AA',
-        data: [111, 222, 333, 444, 555], //backgroundColor: 'green'
-        //backgroundColor: ['green', 'blue', 'red', 'orange', 'pink'],
+        data: [60, 20, 10, 7, 3], //backgroundColor: 'green'
+        backgroundColor: ['turquoise', 'green', 'red', 'grey', 'yellow'],
         borderWidth: 1,
         //borderColor: 'black',
-        hoverBorderWidth: 2,
+        hoverBorderWidth: 3,
         hoverBorderColor: 'purple',
       }]
     },
     options: {
       title: {
-        display: true,
-        //text: 'Snelheid', //Grafieknaam
+        display: false,
+        text: 'Snelheid', //Grafieknaam
         fontSize: 20
       },
       legend: {
@@ -28,7 +28,7 @@ function pieChart() {
       },
       layout: {
         padding: {
-          left: 20,
+          left: 25,
           right: 20
         }
       },
