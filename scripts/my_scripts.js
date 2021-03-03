@@ -1,3 +1,19 @@
+function globalChart() {
+	let myChart = document.getElementById('myChart').getContext('2d');
+
+	Chart.defaults.global.defaultFontFamily = 'Roboto';
+	Chart.defaults.global.defaultFontSize = 18;
+	Chart.defaults.global.defaultFontColor = '#777';
+}
+
+
+
+
+
+
+
+
+
 
 
 
