@@ -4,6 +4,12 @@ function globalChart() {
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontSize = 18;
 	Chart.defaults.global.defaultFontColor = '#777';
+
+	let myChart2 = document.getElementById('myChart').getContext('2d');
+
+	Chart.defaults.global.defaultFontFamily = 'Roboto';
+	Chart.defaults.global.defaultFontSize = 18;
+	Chart.defaults.global.defaultFontColor = '#777';
 }
 
 

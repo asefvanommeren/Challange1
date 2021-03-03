@@ -1,7 +1,7 @@
-function lineChart() {
+function pieChart() {
 
-  let afstandChart = new Chart(myChart, {
-    type: 'line', // bar horizontal pie line doughnut radar polararea
+  let atmosChart = new Chart(myChart2, {
+    type: 'pie', // bar horizontal pie line doughnut radar polararea
     data: {
       labels: ['A', 'B', 'C', 'D', 'E'],
       datasets: [{
